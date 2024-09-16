@@ -9,7 +9,7 @@
 # main.py, whatsapp_bot.py, message_processing.py, selenium_utils.py e config.py.
 # e adicionei um arquivo intents.json para armazenar as intenções do bot.
 
-# Adicionei também um print pra evidenciar que o bot está respondendo as mensagens.
+# Adicionei também um print pra evidenciar um fluxo de conversa com o bot.
 
 # Arquivo main para executar o bot de WhatsApp.
 from selenium import webdriver
