@@ -2,6 +2,15 @@
 # Agentes Conversacionais - Inteligência Artificial Aplicada - PUCPR
 # Aluno: Alan Gonçalves
 
+# Chatbot para WhatsApp que responde mensagens com base em intenções pré-definidas, 
+# neste caso funcionando como um FAQ sobre AWS.
+
+# Separei o código em 5 arquivos: 
+# main.py, whatsapp_bot.py, message_processing.py, selenium_utils.py e config.py.
+# e adicionei um arquivo intents.json para armazenar as intenções do bot.
+
+# Adicionei também um print pra evidenciar que o bot está respondendo as mensagens.
+
 # Arquivo main para executar o bot de WhatsApp.
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -19,11 +28,5 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# Separei o código em quatro arquivos: 
-# main.py, whatsapp_bot.py, message_processing.py e config.py.
-# e adicionei um arquivo intents.json para armazenar as intenções do bot.
-
-# Adicionei também um print pra evidenciar que o bot está respondendo as mensagens.
 
 
